@@ -10,3 +10,4 @@ __pycache__/
 # Ignore demos for now
 demo_iters.py
 demo.py
+kitti_data
