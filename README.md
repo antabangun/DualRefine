@@ -82,6 +82,7 @@ The following table shows the performance of the models on the KITTI dataset. Yo
   <thead>
     <tr>
         <th>Model</th>
+        <th>Download</th>
         <th>Resolution</th>
         <th>Abs Rel ↓</th>
         <th>Sq Rel ↓</th>
@@ -90,12 +91,12 @@ The following table shows the performance of the models on the KITTI dataset. Yo
         <th>a1 ↑</th>
         <th>a2 ↑</th>
         <th>a3 ↑</th>
-        <th>Download</th>
     </tr>
     </thead>
   <tbody>
     <tr>
       <td>Monodepth2</td>
+      <td></td>
       <td>192x640</td>
       <td>0.115</td>
       <td>0.903</td>
@@ -104,10 +105,10 @@ The following table shows the performance of the models on the KITTI dataset. Yo
       <td>0.877</td>
       <td>0.958</td>
       <td>0.980</td>
-      <td></td>
     </tr>
     <tr>
       <td>Manydepth</td>
+      <td></td>
       <td>192x640</td>
       <td>0.098</td>
       <td>0.770</td>
@@ -116,11 +117,11 @@ The following table shows the performance of the models on the KITTI dataset. Yo
       <td>0.900</td>
       <td>0.965</td>
       <td>0.983</td>
-      <td></td>
     </tr>
     <!-- ... -->
     <tr style="background-color: #fafdfb;">
       <td>DualRefine_MR</td>
+      <td><a href="https://www.dropbox.com/s/sp7aj09gfo9jdrh/DualRefine_MR.zip?dl=0">ckpt</a></td>
       <td>192x640</td>
       <td>0.087</td>
       <td>0.698</td>
@@ -129,10 +130,10 @@ The following table shows the performance of the models on the KITTI dataset. Yo
       <td>0.914</td>
       <td>0.967</td>
       <td>0.983</td>
-      <td><a href="https://www.dropbox.com/s/sp7aj09gfo9jdrh/DualRefine_MR.zip?dl=0">ckpt</a></td>
     </tr>
     <tr style="border-top: 2px solid #333;">
       <td>Manydepth (HR ResNet50)</td>
+      <td></td>
       <td>320x1024</td>
       <td>0.091</td>
       <td>0.694</td>
@@ -141,22 +142,22 @@ The following table shows the performance of the models on the KITTI dataset. Yo
       <td>0.911</td>
       <td>0.968</td>
       <td>0.983</td>
-      <td></td>
     </tr>
     <tr style="background-color: #fafdfb;">
       <td>DualRefine_HR</td>
+      <td><a href="https://www.dropbox.com/s/3ak2crtw38s2v8h/DualRefine_HR.zip?dl=0">ckpt</a></td>
       <td>288x960</td>
       <td>0.087</td>
       <td>0.674</td>
       <td>4.130</td>
       <td>0.167</td>
       <td>0.915</td>
-      <td>0.969</td>
+      <td>0.969</td>      
       <td>0.984</td>
-      <td><a href="https://www.dropbox.com/s/3ak2crtw38s2v8h/DualRefine_HR.zip?dl=0">ckpt</a></td>
     </tr>
   </tbody>
 </table>
+
 
 ## Data Preparation
 Please follow the instructions in the [Monodepth2](https://github.com/nianticlabs/monodepth2#-kitti-training-data) repository to download and prepare the KITTI dataset.
