@@ -28,8 +28,8 @@ Inspired by traditional structure-from-motion (SfM) principles, we propose the D
 </h2>
 
 <p align="center">
-  <!-- <img src="https://www.dropbox.com/s/6uq2ppv2o6uwsn5/DualRefine.jpg?dl=1" alt="Overall pipeline" /> -->
-  <img src="https://www.dropbox.com/s/zwko0467yua2wab/Overall.gif?dl=1" alt="Overall pipeline" />
+  <img src="https://www.dropbox.com/s/6uq2ppv2o6uwsn5/DualRefine.jpg?dl=1" alt="Overall pipeline" />
+  <!-- <img src="https://www.dropbox.com/s/zwko0467yua2wab/Overall.gif?dl=1" alt="Overall pipeline" /> -->
 </p>
 
 **Overview:**
