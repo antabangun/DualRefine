@@ -4,7 +4,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Conference](https://img.shields.io/badge/CVPR-2023-blue)](https://cvpr2023.thecvf.com/)
-[![arXiv](https://img.shields.io/badge/arXiv-Coming_Soon-b31b1b)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2304.03560-b31b1b)](https://arxiv.org/abs/2304.03560)
 
 This is the official PyTorch implementation of the paper:
 
