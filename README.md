@@ -23,7 +23,7 @@ Inspired by traditional structure-from-motion (SfM) principles, we propose the D
 
 <h2 align="center">
 
-[Project page](https://antabangun.github.io/projects/DualRefine/) | [Paper](https://arxiv.org/abs/)
+[Project page](https://antabangun.github.io/projects/DualRefine/) | [Paper](https://arxiv.org/abs/2304.03560)
 
 </h2>
 
