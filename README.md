@@ -168,6 +168,17 @@ In our experiments, we use jpeg images for training and evaluation.
 After downloading the dataset and the pretrained models, you can try evaluating the model by following the bash script `eval.sh`. 
 The script will evaluate the model on the KITTI dataset.
 
+### Output Information
+
+At inference, the DualRefine model outputs a tuple of depth and relative poses, including both initial and refined estimates.
+
+#### Depth Output:
+- Initial depth can be obtained from the depth dictionary using the key `('disp', 0, 0)`
+- Refined depth can be obtained from the depth dictionary using the key `('disp', 0, 1)`
+
+#### Pose Output:
+- The `poses` output contains a list of initial and refined poses
+
 <!-- ## Demo
 
 0. Download a raw KITTI sequence from [here](http://www.cvlibs.net/datasets/kitti/raw_data.php), or simply use the sequences that are already included in the `./kitti_data` folder.
@@ -197,6 +208,18 @@ The training script will save the checkpoints in the `weights` folder.
    Other ablation arguments can be found in the `dualrefine/options.py` file.
 
 
+## Limitations and Future Work
+
+While our DualRefine model demonstrates improved overall depth accuracy, we have observed some limitations in its performance. In particular, the model produces noisier results around dynamic objects and non-Lambertian surfaces. 
+
+We are currently researching and developing enhancements to address these challenges. As we make progress, we plan to update the model and share our findings in the future. By acknowledging these limitations, we hope to foster a more comprehensive understanding of the model's performance and encourage further research and collaboration within the community.
+
+Please stay tuned for updates and feel free to contribute your insights and suggestions to help improve the model.
+
+### TODO
+
+1. **Investigate other ablations for DEQ (Deep Equilibrium) implementations:** Explore potential improvements by trying different DEQ implementations in the model.
+2. **Address limitations in depth estimation for dynamic objects and non-Lambertian surfaces:** Work on improving the model's performance for dynamic objects and non-Lambertian surfaces to enhance overall depth estimation accuracy.
 
 
 ## Acknowledgements
