@@ -179,18 +179,12 @@ At inference, the DualRefine model outputs a tuple of depth and relative poses, 
 #### Pose Output:
 - The `poses` output contains a list of initial and refined poses
 
-<!-- ## Demo
+## Demo
 
-0. Download a raw KITTI sequence from [here](http://www.cvlibs.net/datasets/kitti/raw_data.php), or simply use the sequences that are already included in the `./kitti_data` folder.
-
-To run the demo, you can run  
+To run the demo, you can run the following command after downloading the pretrained model and placing it in the `weights` folder:  
 ```bash
 python demo.py --load_weights_folder weights/DualRefine_MR
 ```  
-  The script will run the model on the KITTI dataset.
-  - You can also visualize the resulting 3D point cloud by adding  
-    `--viz3d`  
-    to the command line arguments. Note that this requires the [Open3D](http://www.open3d.org/) library to be installed via `pip install open3d`.   -->
 
 ## Training
 
